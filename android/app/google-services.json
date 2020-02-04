@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "836710170462",
+    "firebase_url": "https://fcmreactnative-65740.firebaseio.com",
+    "project_id": "fcmreactnative-65740",
+    "storage_bucket": "fcmreactnative-65740.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836710170462:android:36ed0ef27c2f112e7199cf",
+        "android_client_info": {
+          "package_name": "com.firebasereactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836710170462-ar2b49rpdh96o0kttod2ug3tfromn98b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebasereactnative",
+            "certificate_hash": "92f8e609b8b1953547781eb63fffbe2caebb95a9"
+          }
+        },
+        {
+          "client_id": "836710170462-spva7lu2lefpb5dfo6hk7f0lrbnv1iqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnoADp8YGx656ySWaWCvZI8VWPD6fZ9vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836710170462-spva7lu2lefpb5dfo6hk7f0lrbnv1iqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
