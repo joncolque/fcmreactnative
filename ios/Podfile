@@ -34,8 +34,12 @@ target 'firebasereactnative' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
-
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  
   target 'firebasereactnativeTests' do
     inherit! :search_paths
     # Pods for testing

@@ -72,6 +72,12 @@ export default class App extends React.Component {
 
       }
     });
+
+    // Con esta simple linea uno queda suscripto a un topico de firebase.
+        firebase.messaging().subscribeToTopic("delfodomestico");
+
+        //To unsuscribe to topic
+        //firebase.messaging().unsubscribeFromTopic("delfodomestico");
     }
 
     componentWillUnmount() {
